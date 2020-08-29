@@ -1,0 +1,27 @@
+{
+  "name": "commitlint-play",
+  "version": "1.0.0",
+  "description": "Test project for commit-lint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "hooks": {
+    "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ari-Tech/commitlint-play.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ari-Tech/commitlint-play/issues"
+  },
+  "homepage": "https://github.com/Ari-Tech/commitlint-play#readme",
+  "devDependencies": {
+    "@commitlint/cli": "3.0.0",
+    "@commitlint/config-conventional": "8.3.4",
+    "@commitlint/format": "8.3.4"
+  }
+}
